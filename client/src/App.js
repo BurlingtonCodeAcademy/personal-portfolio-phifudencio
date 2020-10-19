@@ -1,10 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./Navbar"
+import Homepage from "./Homepage"
+import About from "./About"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello portfolio!</h1>
+    <div>
+    <Navbar/>
+    <Homepage/>
+    <About/>
+      {/* Home */}
+        {/* Header */}
+         {/*Banner */}
     </div>
   );
 }
