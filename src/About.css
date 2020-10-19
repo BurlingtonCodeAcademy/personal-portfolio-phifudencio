@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: #2b2b2b;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.about_pic{  
+    float: left;
+    width: auto;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 350px;
+}
+.about_txt{
+    justify-content: space-around;
+   width:45%;
+margin-right: 250px;
+}
+.h1_home{
+    font-size:30px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+
+#about{
+    font-size: 15px;
+    color: #7a7a7a;
+}
+
+#resume_button{
+    position: relative;
+    margin-top: 50px;
+    width: 100px;
+background-color: teal;
+}
