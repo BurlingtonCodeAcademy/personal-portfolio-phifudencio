@@ -21,7 +21,7 @@ nav {
 .ullist {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 20%;
   list-style: none;
 }
 .tag {
