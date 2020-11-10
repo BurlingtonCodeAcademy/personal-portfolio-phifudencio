@@ -39,13 +39,14 @@ function Footer() {
               <input type="submit" value="Submit"></input>
             </div>
           </form>
-          <div>
+         
+        </div>
+        <div className="descrip">
             <p>Use this contact form for any ideas ,question and advice.</p>
             <p>I will get back to you shortly.</p>
             <br></br>
             <p>Thanks for visiting my portfolio. See you soon!</p>
           </div>
-        </div>
       </div>
     </div>
   );

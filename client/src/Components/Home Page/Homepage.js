@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import Banner from "./img/banner.jpg";
-import Facebook from "./img/facebook.svg"
-import Instagram from "./img/instagram.svg"
-import Linkedin from "./img/linkedin.svg"
+import Banner from "../img/banner.jpg";
+import Facebook from "../img/facebook.svg"
+import Instagram from "../img/instagram.svg"
+import Linkedin from "../img/linkedin.svg"
 
 
 function Homepage() {

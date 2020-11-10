@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";
-import Navbar from "./Navbar";
-import Homepage from "./Homepage";
-import About from "./About";
-import Resume from "./Resume";
-import Footer from "./Footer";
-import Project from "./Project";
+import Navbar from "./Components/Nav Bar/Navbar";
+import Homepage from "./Components/Home Page/Homepage";
+import About from "./Components/About/About.js";
+import Resume from "./Components/Resume/Resume";
+import Footer from "./Components/Footer/Footer";
+import Project from "./Components/Projects Page/Project";
+import Description from "./Components/Project Description/Description"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Switch>
+          <Route path="/project/description" component={Description}/>
           <Route path="/Projects" component={Project} />
           <Route exact path="/">
             <Homepage />
