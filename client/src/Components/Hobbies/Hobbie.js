@@ -5,7 +5,7 @@ import "./Hobbie.css";
 function Hobbie() {
   return (
     <div>
-      {/* Title Container */}
+      {/* Title*/}
       <div className="yt_title">
         <h1>Jiu-Jitsu Fights</h1>
       </div>
