@@ -1,24 +1,29 @@
 .footer_container {
+  /*Styling of the container*/
   margin-top: 100px;
   background-color: #2b2b2b;
   color: #777777;
 }
 .title {
+  /*Title styling*/
   text-align: center;
   margin-bottom: 50px;
 }
 .form_container {
+  /*Forn Container*/
   display: flex;
   justify-content: center;
   justify-content: space-between;
   padding-left: 200px;
 }
 .form_input {
+  /*For input area*/
   width: 10px;
   margin-bottom: 10px;
   color: #777777;
 }
-.descrip{
+.descrip {
+  /*Description*/
   padding-top: 10px;
   padding-right: 200px;
 }

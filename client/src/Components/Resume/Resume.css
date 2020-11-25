@@ -1,24 +1,29 @@
+/* Container styling */
 .resume_container{
     margin-top: 80px; 
     text-align: center;
 }
+/* Titles Styling */
 h1{
 font-size: 40px;
 margin-left: 200px;
 }
-
+/* Education container */
 .container_education{
     display: flex;
     justify-content: space-between;
 }
+/* Work Container */
 .container_work{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
+/* Description Styling */
 .description{
 margin-right: 50%;
 }
+/* Drawing lines. */
 .line {
     border: solid 1px;
     border-color: rgb(255, 226, 216);

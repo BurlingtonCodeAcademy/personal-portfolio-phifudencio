@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/* Nav container styling */
 nav {
   display: flex;
   justify-content: space-around;
@@ -12,12 +12,14 @@ nav {
   background-color: #5d4954;
   font-family: "Piazzolla", serif;
 }
+/* Logo on the left side of the page styling */
 .logo {
   color: rgb(220, 220, 220);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
+/* List styling */
 .ullist {
   display: flex;
   justify-content: space-around;
@@ -25,6 +27,7 @@ nav {
   list-style: none;
 }
 .tag {
+  /* Each item of the list styling */
   color: thistle;
   text-decoration: none;
   letter-spacing: 3px;
@@ -33,6 +36,7 @@ nav {
 }
 
 .line1 {
+  /* Burrguer menu line drawing*/
   background-color: whitesmoke;
   width: 40px;
   height: 5px;
@@ -40,6 +44,7 @@ nav {
   margin: 5px;
 }
 .line2 {
+  /* Burrguer menu line drawing */
   background-color: whitesmoke;
   width: 20px;
   height: 5px;
@@ -47,6 +52,7 @@ nav {
   margin: 5px;
 }
 .line3 {
+  /*  Burrguer menu line drawing*/
   background-color: whitesmoke;
   width: 40px;
   height: 5px;

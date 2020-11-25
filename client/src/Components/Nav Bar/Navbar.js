@@ -12,24 +12,28 @@ function Navbar() {
         <div className="logo">
           <h4>The Nav</h4>
         </div>
-    
-          <ul className="ullist">
-            <Link className="tag" to="/">
-              Home
-            </Link>
-            <a className="tag" href="#aboutMe">
-              About
-            </a>
-            <Link className="tag" to="/Projects">
-              Projects
-            </Link>
-          </ul>
-        
-        <div className="burger">
+        {/* List with the menu */}
+        <ul className="ullist">
+          <Link className="tag" to="/">
+            Home
+          </Link>
+          <a className="tag" href="#aboutMe">
+            About
+          </a>
+          <Link className="tag" to="/Projects">
+            Projects
+          </Link>
+          <Link className="tag" to="/Hobbies">
+            Jiu-Jitsu
+          </Link>
+        </ul>
+
+        {/*Burguer menu styling (Not working yet) */}
+       {/*  <div className="burger">
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
-        </div>
+        </div> */}
       </nav>
     </div>
   );

@@ -5,10 +5,10 @@ function Footer() {
   return (
     <div className="footer_container">
       <div className="title">
-        {" "}
         <h1>Contact ME</h1>
       </div>
       <div class="container">
+        {/*Form container */}
         <div className="form_container">
           <form>
             <div className="form_input">
@@ -39,14 +39,14 @@ function Footer() {
               <input type="submit" value="Submit"></input>
             </div>
           </form>
-         
         </div>
+        {/*Description Container */}
         <div className="descrip">
-            <p>Use this contact form for any ideas ,question and advice.</p>
-            <p>I will get back to you shortly.</p>
-            <br></br>
-            <p>Thanks for visiting my portfolio. See you soon!</p>
-          </div>
+          <p>Use this contact form for any ideas ,question and advice.</p>
+          <p>I will get back to you shortly.</p>
+          <br></br>
+          <p>Thanks for visiting my portfolio. See you soon!</p>
+        </div>
       </div>
     </div>
   );

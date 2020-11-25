@@ -1,0 +1,16 @@
+/* Videos Placement */
+.videos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* Padding on videos. */
+.yt {
+  padding-bottom: 30px;
+}
+/* Title */
+.yt_title {
+  margin-right: 170px;
+  text-align: center;
+  margin-bottom: 50px;
+}

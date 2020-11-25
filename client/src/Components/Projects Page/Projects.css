@@ -3,22 +3,24 @@
   padding: 0;
   font-family: "Piazzolla", serif;
 }
+/* Tittle styling */
 .project_title{
 text-align: center;
 padding-right: 7%;
 }
-
-.container {
+/* Container styling  */
+.container { 
   display: flex;
   justify-content: space-between;
   padding-left: 18%;
   width: 85%;
 }
-
+/* Image Row styling */
 .image_row {
   margin-bottom: 30px;
   text-align: center;
 }
+/* Images on Image row styling */
 .image_row img {
   height: 200px;
   width: auto;
@@ -26,9 +28,11 @@ padding-right: 7%;
   transition: transform 0.2s ease-out;
   border-radius: 12px;
 }
+/* Hover animation */
 .image_row img:hover {
   transform: scale(1.1);
 }
-p {
+/*  P tags styling. */
+.image_row p {
   margin-bottom: 10px;
 }

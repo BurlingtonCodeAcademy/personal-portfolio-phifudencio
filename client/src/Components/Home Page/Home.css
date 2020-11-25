@@ -1,67 +1,68 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-  .banner_row{
-    display: flex;
-    position: relative;
-   text-align: center;
-    color: #fff;
-    justify-content: center;
-    background: black;
-  }
-  .bannerTxt{
-    margin-top:300px;
-    position: absolute;
-    font-size: 48px;
-    text-align: center;
-  }
-  .banner_row img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    height: 863px;
-    width: 100%;
-    opacity: 0.3;
-
-  }
-  h1{
-    font-size: 80px;
-  }
-  h3{
-    font-size: 30px;
-    color:rgb(191, 187, 187) ;
-  }
-  span{
-    font-size:35px;
-    color:white;
-  }
-
-
-  .tagSocial{
-    display: flex;
-    margin-left: 500px;
-  }
-.social a{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.banner_row {
+  color: white;
+}
+.background {
+  /*This is for getting the picture darker*/
   display: flex;
-  justify-content: center; 
-align-items: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  background: black;
 }
 
-.social{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30%;
+.background img {
+  /*This is for getting the picture darker*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 863px;
+  width: 100%;
+  opacity: 0.3;
+}
+.bannerTxt {
+  /*Text in the middle styling*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 15%;
+  top: 45%;
+}
+.bannerTxt h1 {
+  /*Styling of the text*/
+  font-size: 80px;
+}
+.bannerTxt h3 {
+  /*Styling of the text*/
+  font-size: 30px;
+  color: rgb(191, 187, 187);
+}
+.bannerTxt span {
+  /*Styling of the text*/
+  font-size: 35px;
+  color: white;
+}
+.social {
+  /*Image contaienr padding*/
+  padding-top: 100px;
+  padding-left: 75px;
+}
+#social_icon {
+  /*Social icons padding.*/
+  padding-left: 50px;
+}
 
-  }
-img.img {
-  width: 50%;
- opacity: 0.9;
-   height: 300px;
-   padding-bottom: 200px;
-
- }
+.social a .img {
+  /*image size*/
+  width: 50px;
+  opacity: 0.9;
+}
