@@ -12,8 +12,10 @@ padding-right: 7%;
 .container { 
   display: flex;
   justify-content: space-between;
-  padding-left: 18%;
   width: 85%;
+}
+.right{
+  padding-right: 18%;
 }
 /* Image Row styling */
 .image_row {

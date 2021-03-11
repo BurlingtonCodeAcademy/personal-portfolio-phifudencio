@@ -2,28 +2,33 @@
 import React from "react";
 import "./About.css";
 import Mypic from "../img/mypic.jpg";
+import Resume from "../img/Resume.pdf";
 
 function About() {
   return (
     <div id="aboutMe">
-      {/*Container about me */}
-      <img className="about_pic" src={Mypic}></img> {/*My image*/}
-      <div className="about_txt">
-        {/*Container with description */}
-        <h1 className="h1_home">About Me</h1>
-        <h3 id="about">
-          My name is Mathes Drumond, I'm a Student and avid Jiu-Jitsu fighter.
-          Currently I'm working with cleaning.
-        </h3>
-        <h1 className="h1_home">Contact Details</h1> {/*Fake Address */}
-        <p id="about">Matheus Drumond</p>
-        <p id="about">123 Fake Street</p>
-        <p id="about">Minas Gerais Brazil,ABC 123</p>
-        <p id="about">+1 123 456 7890</p>
-        <p id="about">fake_email@gmail.com</p>
-        <button className="resume_button">Download Resume</button>
-        {/*Button to download resume */}
-      </div>
+    <div className="about_desc">
+    <div className="about_img">
+     <img src={Mypic}></img>
+    </div>
+    <div className="about_txt">
+    <div className="about_me">
+    <h2>About me</h2>
+    <p>My name is Matheus Drumond, I'm Brazilian living in United States.</p>
+    </div>
+    <div className="about_contact">
+<h2>Contact Me</h2>
+<ul style={{ listStyle: "none" }}>
+          <li>Matheus Drumond</li>
+          <li>matheus9d6@gmail.com</li>
+        </ul>
+    </div>
+    <div>
+    <a className="button" href={Resume} download>
+          Download Resume
+        </a></div> 
+    </div>
+    </div>
     </div>
   );
 }

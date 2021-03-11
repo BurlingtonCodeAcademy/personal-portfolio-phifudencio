@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Components/Nav Bar/Navbar";
+import Navs from "./Components/Nav Bar/Navbar";
 import Homepage from "./Components/Home Page/Homepage";
 import About from "./Components/About/About.js";
 import Resume from "./Components/Resume/Resume";
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Navs />
         <Switch>
           <Route path="/project/description/Remock" component={Remock}/>
           <Route path="/project/description/TicTacToe" component={TicTacToe}/>
@@ -24,7 +24,7 @@ function App() {
           <Route path="/Hobbies" component={Hobbies}/>
           <Route exact path="/">
             <Homepage />
-            <About />
+             <About />
             <Resume />
             <Footer />
           </Route>

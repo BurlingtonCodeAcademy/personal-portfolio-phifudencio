@@ -3,61 +3,77 @@
   padding: 0;
   font-family: "Piazzolla", serif;
 }
-#aboutMe {
-  /*About me container styling*/
-  display: flex;
-  justify-content: center;
-  text-align: left;
+#aboutMe{
   background-color: #2b2b2b;
-  height: 500px;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 100%;
+  color: white;
+
 }
-.about_pic {
-  /*My picture*/
-  float: left;
-  width: auto;
+.about_desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about_txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 150px;
+}
+
+.about_img img{
+  width: 300px;
   height: 300px;
   border-radius: 100%;
-  margin-left: 350px;
-}
-.about_txt {
-  /*Text about section styling*/
-  justify-content: space-around;
-  width: 45%;
-  margin-right: 250px;
-}
-.h1_home {
-  /*Title h1 styling*/
-  font-size: 30px;
-  color: #fff;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-align: center;
-  margin-right: 500px;
 }
 
-#about {
-  /*h3 styling*/
-  font-size: 15px;
-  color: #7a7a7a;
-}
 
-.resume_button {
-  /* Resume Download Button*/
-  position: relative;
-  margin-top: 30px;
-  width: 100px;
-  background-color: #7a7a7a;
-  border-color: #7a7a7a;
-  border-radius: 6%;
-}
-
-button:hover {
-  /*Animation on button hover*/
-  color: black;
+.button {
+  box-shadow: inset 0px 1px 3px 0px #454545;
+  background-color: #454545;
+  border-radius: 5px;
+  border: 1px solid #454545;
+  display: inline-block;
   cursor: pointer;
-  background-color: whitesmoke;
-  border-color: whitesmoke;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 23px;
+  text-decoration: none;
+  list-style: none;
+}
+.button:hover {
+  background-color: rgb(150, 150, 150);
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+@media screen and (max-width: 744px) {
+ .about_img img{
+   height: 200px;
+   width: 200px;
+ }
+
+ .about_txt{
+  padding-left: 50px;
+}
+}
+
+@media screen and (max-width: 422px) {
+  .about_txt h2{
+    font-size: 20px;
+  }
+  .about_txt{
+    font-size: 12px;
+  }
+
+  .about_img img{
+    height: 100px;
+    width: 100px;
+  }
+ 
 }

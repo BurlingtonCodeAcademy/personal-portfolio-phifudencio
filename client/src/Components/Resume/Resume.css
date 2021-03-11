@@ -1,28 +1,40 @@
 /* Container styling */
 .resume_container{
-    margin-top: 80px; 
+    margin-top: 80px;
+}
+.resume_c{
+    justify-content: center;
     text-align: center;
 }
-/* Titles Styling */
-h1{
-font-size: 40px;
+.resume_edu .resume_title{
+
+    padding-right: 200px;
+}
+.resume_title{
+    margin-right: 50px;
+}
+.resume_edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 140px;
+}
+#resume_txt{
 margin-left: 200px;
 }
-/* Education container */
-.container_education{
+.resume_edu #resume_txt{
+    margin-right: 150px;
+}
+
+.resume_work h1{
+    margin-right: 120px;
+}
+.resume_work{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
 }
-/* Work Container */
-.container_work{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-/* Description Styling */
-.description{
-margin-right: 50%;
-}
+
 /* Drawing lines. */
 .line {
     border: solid 1px;
@@ -33,6 +45,33 @@ margin-right: 50%;
     height: 5px;
     margin-top: 60px;
     margin-bottom: 50px;
-    margin-left: 20%;
+    margin-left: 425px;
+    
   }
   
+
+  @media screen and (min-width:345px) and (max-width:500px){
+      .resume_title h1{
+          font-size: 20px;
+          
+      }
+     .resume_edu .resume_title{
+        margin-right: 120px;
+        padding:0;
+        
+    }
+    .resume_edu {
+        padding:0;
+    }
+    
+    .resume_txt h2{
+       font-size: 20px;
+      }
+      .resume_title {
+          font-size: 12px;
+      }
+      .line{
+          display: none;
+      }
+    
+  }

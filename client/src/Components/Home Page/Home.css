@@ -5,64 +5,156 @@
   scroll-behavior: smooth;
 }
 .banner_row {
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  justify-content: center;
+  position: absolute;
+}
+
 .background {
   /*This is for getting the picture darker*/
   display: flex;
   position: relative;
-  text-align: center;
   color: #fff;
   justify-content: center;
   background: black;
+  align-items: center;
 }
 
 .background img {
   /*This is for getting the picture darker*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
   height: 863px;
   width: 100%;
-  opacity: 0.3;
-}
-.bannerTxt {
-  /*Text in the middle styling*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  left: 15%;
-  top: 45%;
-}
-.bannerTxt h1 {
-  /*Styling of the text*/
-  font-size: 80px;
-}
-.bannerTxt h3 {
-  /*Styling of the text*/
-  font-size: 30px;
-  color: rgb(191, 187, 187);
-}
-.bannerTxt span {
-  /*Styling of the text*/
-  font-size: 35px;
-  color: white;
-}
-.social {
-  /*Image contaienr padding*/
-  padding-top: 100px;
-  padding-left: 75px;
-}
-#social_icon {
-  /*Social icons padding.*/
-  padding-left: 50px;
+  opacity: 0.7;
+  object-fit: cover;
 }
 
-.social a .img {
-  /*image size*/
-  width: 50px;
-  opacity: 0.9;
+.social{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  position:absolute;
+}
+.social_list{
+  display: flex;
+  list-style: none;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+#my-{
+  margin-top:300%;
+  padding-right: 50px;
+}
+.social img{
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media screen and (min-width: 986px) {
+  .txt h1{
+    font-size: 60px;
+    }
+    .txt span{
+      font-size: 43px;
+      color: rgb(255, 255, 255);
+    }
+    .txt h3{
+      font-size: 25px;
+      color: rgba(252, 252, 252, 0.795);
+    }
+    #my-{
+      margin-top:250%;
+      padding-right: 50px;
+    }
+    .social{
+      margin-left: 50px;
+    }
+    
+}
+@media screen and (min-width: 866px) and (max-width:986px) {
+  .txt h1{
+    font-size: 38px;
+    }
+    .txt span{
+      font-size: 25px;
+      color: whitesmoke;
+    }
+    .txt h3{
+      font-size: 20px;
+      color: rgb(163, 162, 162);
+    }
+    #my-{
+      margin-top:200%;
+      padding-right: 50px;
+    }
+    .social{
+      margin-left: 50px;
+    }
+}
+@media screen and (min-width: 734px) and (max-width:866px){
+  .txt h1{
+    font-size: 33px;
+    }
+    .txt span{
+      font-size: 20px;
+      color: whitesmoke;
+    }
+    .txt h3{
+      font-size: 20px;
+      color: rgb(163, 162, 162);
+    }
+    #my-{
+      margin-top:200%;
+      padding-right: 50px;
+    }
+    .social{
+      margin-left: 50px;
+    }
+    .social img{
+     height: 28px;
+    }
+    
+}
+
+@media screen and (max-width:866px){
+  .txt h1{
+    font-size: 20px;
+    }
+    .txt span{
+      font-size: 13px;
+      color: whitesmoke;
+    }
+    .txt h3{
+      font-size: 10px;
+      color: rgb(163, 162, 162);
+    }
+    #my-{
+      margin-top:200%;
+      padding-right: 50px;
+    }
+    .social{
+      margin-left: 50px;
+    }
+    .social img{
+     height: 28px;
+    }
+    
+}
+@media screen and (max-width: 374px){
+  .txt h1{
+    font-size: 15px;
+  }
+  .txt h3{
+    font-size: 10px;
+  }
 }
